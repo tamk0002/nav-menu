@@ -99,8 +99,8 @@ header{
         }
         .menu-h a:hover,
         .menu-h a:active{
-/*            background-color: #123D4A;*/
             border: 5px inset #B1EDFF;
+            
         }
 .menu-v{
     width: 20%;
