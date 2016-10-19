@@ -33,24 +33,28 @@ h2{
 nav li{
     font-size: 2.618rem;
     list-style: none;
-    font-style: none;
+    font-style: none;  
 }
 ul{
     width: 100%;
-    padding: 30px;
+    padding: 0;
     background-color: #B1EDFF;
     float: left;
     position: relative;
-    
+    overflow: hidden;
 }
 li{
-    padding: .5rem;
+
 }
 nav li>a{
     color: #4DA4C4;
+    margin: 0;
+    padding: 20px;
+
 }
 nav li>a:hover{
     color: #3FD2FF;
+    display: block;
 }
 p{
     font-size: 1.618rem;
@@ -85,32 +89,49 @@ header{
         .menu-h a,
         .menu-h a:link,
         .menu-h a:visited{
+            display: block;
+            text-decoration: none;
+            border: 5px outset #B1EDFF;
+            background-color: #92DEFF;
+            
             /* style the anchors to fill the entire width of the li 
             make sure there is padding around your text */
         }
         .menu-h a:hover,
         .menu-h a:active{
-            
+/*            background-color: #123D4A;*/
+            border: 5px inset #B1EDFF;
         }
 .menu-v{
     width: 20%;
     float: none;
 }
     .menu-v li{
-        height: 4rem;
+        height: inherit;
         text-align: center;
         text-transform: uppercase;
+        
         /* style the list items to remove the bullets 
         and line up vertically
         and take up 100% of the width of the ul */
     }
         .menu-v a,
-        .menu-v a:link,
+        .menu-v a:link, 
         .menu-v a:visited{
+            padding: ;
+            text-decoration: none;
+            display: block;
+            border-left: 7px dotted transparent;
+            transition: .5s;
+            
             /* style the anchors to fill the entire width of the li */
         }
-        .menu-v a:hover, bob
+        .menu-v a:hover, 
         .menu-v a:active{
+            border-left: 7px dotted #B1EDFF;
+            display: block;
+            overflow: hidden;
+            background-color: #123D4A;
             
         }
 main{
